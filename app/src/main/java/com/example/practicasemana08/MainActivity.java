@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
         tcp = TCPSingleton.getInstance();
 
+
         shoot.setOnClickListener(
                 v -> {
 
